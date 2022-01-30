@@ -34,7 +34,7 @@ networks:
     clarusnet:
         driver: overlay
 
-volume:
+volumes:
     db-data:
 
 
