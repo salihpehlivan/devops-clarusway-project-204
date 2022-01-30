@@ -25,10 +25,10 @@ services:
               parallelism: 2
               delay: 5s
               order: start-first
-          ports:
-              - "80:80"
-          networks:
-              - clarusnet
+      ports:
+         - "80:80"
+      networks:
+         - clarusnet
 
 networks:
     clarusnet:
